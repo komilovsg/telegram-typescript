@@ -78,7 +78,7 @@ app.post("/login", async (req, res) => {
     res.status(500).send("Error logging in.");
   }
 });
-
+console.log();
 app.listen(3001, () => {
   console.log(`Hola KSG, everythings work well`);
 });
